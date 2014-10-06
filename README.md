@@ -7,5 +7,5 @@ Make sure to run ```chmod 744``` on the ```txt/``` directory so that the app has
 
 ### Todo
 * Support for proxy services
-* 
+
 If you have any questions, open an issue.
