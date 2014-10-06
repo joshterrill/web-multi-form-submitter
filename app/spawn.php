@@ -9,8 +9,8 @@
   $firstname = $firstname_content[rand(0, count($firstname_content) - 1)];
 
   // get random alst name
-  $lastname_content = file("../txt/first.txt"); 
-  $lastname = $firstname_content[rand(0, count($firstname_content) - 1)];
+  $lastname_content = file("../txt/last.txt"); 
+  $lastname = $lastname_content[rand(0, count($lastname_content) - 1)];
 
   // trim email list and parse it by line
   $emails = trim($_POST['emails']);
