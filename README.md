@@ -6,6 +6,6 @@ Edit the URL input and field names as needed in the ```index.php``` and ```spawn
 Make sure to run ```chmod 744``` on the ```txt/``` directory so that the app has read access to the files.
 
 ### Todo
-* Support for proxy services
+* Support for proxy services (http://kingproxies.com has a pretty good looking API for this...)
 
 If you have any questions, open an issue.
