@@ -1,6 +1,9 @@
 <?php
   ob_start();
   
+  // generate random number between 1-60 for sleep()
+  $sleepSeconds = rand(10,60);
+  
   // get url
   $url = $_POST['url'];
 
